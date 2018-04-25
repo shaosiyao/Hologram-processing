@@ -1,4 +1,4 @@
-%% Recon for bubbly wake project (phase object)
+
 % code iterate from the Toloui & Hong 2015, using Rayleigh-Sommerfield & Kirchhoff-Fresnel diffraction Kernels (refrence: Katz and Sheng 2010)
 
 function [Rec3] = SS_3DReconKFRS_Fn (Hologram,Lambda, Reso, Z_depth, SavingIMG,Kernel,im_rec)
