@@ -1,9 +1,11 @@
 % clc 
 % clear all
 % close all
-% All the input parameters have the unit of microns
+% All the input parameters have the units of micron
 Hologram= im2double(imread('Sample Hologram.tif'));
-Lambda=0.532;
+Lambda_air=0.532;
+ri=1.33; % take water as example
+Lambda=Lamda_air/ri;
 Reso=51;
 Sequences=1:1:1;
 
